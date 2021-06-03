@@ -4,5 +4,6 @@ end
 
 def count_empty_strings(array)
   array.count do |num| 
-    num == nil end
+    num == nil 
+  end
 end
